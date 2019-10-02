@@ -12,7 +12,7 @@ class App extends Component {
 			<div className="App">
 				<button onClick={this.handleOnClick}>Click</button>
 				<p>{this.props.items.length}</p>
-			</div>
+			</div> 
 		);
 	}
 }
