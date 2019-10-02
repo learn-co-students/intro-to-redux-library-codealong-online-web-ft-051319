@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends Component {
 	handleOnClick = event => {
-		this.props.increaseCount();
+		this.props.increaseCount(); //increaseCount() is being provided by the mapDispatchToProps function
 	};
 
 	render() {
